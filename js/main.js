@@ -49,11 +49,13 @@ function applyFilter(filterName){
 function preload() {
     loadStarImage()
     loadCatImages()
+    loadSoundBrush()
 }
 
 function setup(){
     createCanvas(innerWidth,innerHeight)
     setupNoiseBrush();
+    setupSoundBrush()
 }
 
 function draw(){
@@ -81,7 +83,10 @@ function draw(){
 
             noiseBrush( mouseX, mouseY )
 
-        }
+        } else if(currentBrush=="soundBrush"){
 
+            soundBrush( mouseX, mouseY )
+
+        }
     }
 }
