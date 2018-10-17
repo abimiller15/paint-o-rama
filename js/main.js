@@ -74,6 +74,9 @@ function draw(){
 
             catsBrush( mouseX, mouseY )
 
+        } else if(currentBrush== "textBrush"){
+
+             textBrush( mouseX, mouseY )
         }
 
     }
