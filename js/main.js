@@ -38,6 +38,9 @@ function applyFilter(filterName){
 
         invert()
 
+    } else if(filterName=="bayer"){
+
+        bayer()
     }
 
 }
