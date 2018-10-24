@@ -116,6 +116,9 @@ function draw(){
 
             acidhouseBrush( mouseX, mouseY )
 
+        } else if(currentBrush== "textBrush"){
+
+             textBrush( mouseX, mouseY )
         }
     }
 }
