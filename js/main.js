@@ -98,7 +98,6 @@ function draw(){
 
             noiseBrush( mouseX, mouseY )
         } else if(currentBrush=="soundBrush"){
-
             soundBrush( mouseX, mouseY )
         }
     }
