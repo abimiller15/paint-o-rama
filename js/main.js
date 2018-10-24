@@ -87,6 +87,8 @@ function draw(){
 
             soundBrush( mouseX, mouseY )
 
+            musicTrack.play(); 
+
         }
     }
 }

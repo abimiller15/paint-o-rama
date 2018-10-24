@@ -12,7 +12,7 @@ function loadSoundBrush(){
 
 
 function setupSoundBrush() { //get rid of and add to main.js??
-	musicTrack.play(); // start the music
+// start the music
 	amplitude = new p5.Amplitude();
 
 	musicTrack.jump(30);
