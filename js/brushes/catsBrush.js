@@ -19,7 +19,7 @@ function loadCatImages(){
 
 function catsBrush(x,y){
     push() // save current drawing settings
-    let ran = random( 0, cats.length-1 ) // pick a random index from cat array
+    let ran = random( 0, cats.length ) // pick a random index from cat array
     ran = floor( ran ) // make sure it is not a float by rounding down
     image( cats[ran], x, y, 50, 50 ) // draw a random cat
     pop() // restore original drawing settings
