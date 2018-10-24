@@ -38,11 +38,26 @@ function applyFilter(filterName){
 
         invert()
 
+    } else if(filterName=="sonify"){
+
+        toggleSonify()
+
+    } else if(filterName=="webcam"){
+
+      webcam()
+
+    } else if(filterName=="pinkparty"){
+
+      pinkparty()
+
+    } else if(filterName=="bayer"){
+
+        bayer()
+
     } else if(filterName=="pixelate"){
 
         pixelate()
-
-    }
+        
 
     } else if(filterName=="bayer"){
 
@@ -100,11 +115,19 @@ function draw(){
         } else if(currentBrush=="noiseBrush"){
 
             noiseBrush( mouseX, mouseY )
+<<<<<<< HEAD
 
         } else if(currentBrush=="erase"){
 
             erase( mouseX , mouseY)
 
+=======
+
+        } else if(currentBrush=="erase"){
+
+            erase( mouseX , mouseY)
+
+>>>>>>> class
         } else if (currentBrush=="djScrewBrush"){
 
             djScrewBrush( mouseX, mouseY )
