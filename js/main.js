@@ -53,6 +53,15 @@ function applyFilter(filterName){
     } else if(filterName=="bayer"){
 
         bayer()
+
+    } else if(filterName=="pixelate"){
+
+        pixelate()
+        
+
+    } else if(filterName=="bayer"){
+
+        bayer()
     }
 }
 
@@ -106,11 +115,19 @@ function draw(){
         } else if(currentBrush=="noiseBrush"){
 
             noiseBrush( mouseX, mouseY )
+<<<<<<< HEAD
 
         } else if(currentBrush=="erase"){
 
             erase( mouseX , mouseY)
 
+=======
+
+        } else if(currentBrush=="erase"){
+
+            erase( mouseX , mouseY)
+
+>>>>>>> class
         } else if (currentBrush=="djScrewBrush"){
 
             djScrewBrush( mouseX, mouseY )
