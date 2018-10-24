@@ -1,20 +1,19 @@
 
 
-var musicTrack;
+//var musicTrack;
 var amplitude;
 var img;
 var rotation = 3;
 
 function loadSoundBrush(){
 	img = loadImage("images/catball.png"); //add to main.js ???
-	musicTrack = loadSound("audio/baths-animals.mp3");
+	//musicTrack = loadSound("audio/catsong.mp3");
 }
 
 
 function setupSoundBrush() { //get rid of and add to main.js??
-// start the music
+// moved start the music
 	amplitude = new p5.Amplitude();
-
 	musicTrack.jump(30);
 }
 
