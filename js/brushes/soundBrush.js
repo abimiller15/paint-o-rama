@@ -31,7 +31,7 @@ function soundBrush(x,y) {
 
 		// catball version
 		rotation += 4; //better way to control this
-		push();
+		push(); //save
 			translate(mouseX, mouseY);
 			rotate(rotation);
 			imageMode(CENTER);
