@@ -12,8 +12,7 @@ git clone https://github.com/net-art-and-cultures/paint-o-rama.git
 ```bash
 cd paint-o-rama
 ```
-```bash
-python -m SimpleHTTPServer
+```bashSimpleHTTPServer
 ```
 
 3. request the page from ur browser

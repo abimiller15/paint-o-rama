@@ -46,19 +46,14 @@ function applyFilter(filterName){
 // _.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~ our familiar p5.js structure
 // _.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~
 
-var musicTrack;
-
 function preload() {
     loadStarImage()
     loadCatImages()
-    loadSoundBrush()
-    musicTrack = loadSound("audio/catsong.mp3");
 }
 
 function setup(){
     createCanvas(innerWidth,innerHeight)
     setupNoiseBrush();
-    setupSoundBrush()
 }
 
 function draw(){
@@ -86,13 +81,7 @@ function draw(){
 
             noiseBrush( mouseX, mouseY )
 
-        } else if(currentBrush=="soundBrush"){
-
-            soundBrush( mouseX, mouseY )
-
-            if (musicTrack.play();) {
-            musicTrack.isPlaying())
-            }
+        }
 
     }
 }
