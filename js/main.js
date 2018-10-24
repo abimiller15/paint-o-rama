@@ -50,6 +50,9 @@ function applyFilter(filterName){
 
       pinkparty()
 
+    } else if(filterName=="bayer"){
+
+        bayer()
     }
 }
 
