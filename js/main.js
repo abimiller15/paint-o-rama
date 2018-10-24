@@ -100,6 +100,6 @@ function draw(){
         } else if(currentBrush=="soundBrush"){
 
             soundBrush( mouseX, mouseY )
+        }
     }
-}
 }
