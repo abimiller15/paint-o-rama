@@ -38,17 +38,19 @@ function applyFilter(filterName){
 
         invert()
 
+    } else if(filterName=="sonify"){
+
+        toggleSonify()
+
     } else if(filterName=="webcam"){
 
-        webcam()
+      webcam()
+
+    } else if(filterName=="pinkparty"){
+
+      pinkparty()
 
     }
-    else if(filterName=="pinkparty"){
-
-        pinkparty()
-
-      }
-
 }
 
 // _.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~._.~'~

@@ -1,5 +1,11 @@
 body {
-
+   -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+         -ms-user-select: none; /* Internet Explorer/Edge */
+             user-select: none; /* Non-prefixed version, currently
+                                   supported by Chrome and Opera */
 }
 
 canvas {
@@ -47,6 +53,27 @@ canvas {
 
 .filter-item:hover {
     color:#ff00ff;
+}
+
+#sonifymenu {
+  border: 3px solid #000;
+  display:none;
+  width:70px;
+  height:105px;
+  background-color: #cef;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+
+}
+#sonifymenu > img {
+  width: 32px;
+  cursor:pointer;
+}
+#sonifyslider {
+    width: 50%; /* Width of the outside container */
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
 }
 
 /* labels for noise brush sliders */
