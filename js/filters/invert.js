@@ -11,6 +11,7 @@ function invert(){
         pixels[i+2] = 255 - b // re-assign to invere of blue value
     }
     updatePixels() // update canvas from modified "pixels" array
-  
+    updatePixels() // update canvas from modified "pixels" array
+
     pop() // restore original drawing settings
 }
