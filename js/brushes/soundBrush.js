@@ -40,5 +40,5 @@ function soundBrush(x,y) {
 	      musicTrack.play();
 	}
 		pop();
-	}
+
 }
