@@ -54,8 +54,8 @@ function applyFilter(filterName){
 function preload() {
     loadStarImage()
     loadCatImages()
-    loadSoundBrush()
     loadCowboyImages()
+    loadSoundBrush()
 }
 
 function setup(){
@@ -66,7 +66,7 @@ function setup(){
 
 function mouseReleased(){
     cowboyEnd(); //when mouse is released the audio stops playing
-    musicEnd();
+    catEnd();
 }
 
 function draw(){
@@ -100,7 +100,8 @@ function draw(){
 
         } else if(currentBrush=="soundBrush"){
 
-            noiseBrush( mouseX, mouseY )
+            soundBrush( mouseX, mouseY )
 
     }
+}
 }
