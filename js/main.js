@@ -97,7 +97,7 @@ function draw(){
         } else if(currentBrush=="noiseBrush"){
 
             noiseBrush( mouseX, mouseY )
-
+        }
         } else if(currentBrush=="soundBrush"){
 
             soundBrush( mouseX, mouseY )
