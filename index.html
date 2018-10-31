@@ -10,14 +10,35 @@
         <section id="filters">
             <span class="filter-item" id="desaturate"> desaturate </span>
             <span class="filter-item" id="invert"> invert </span>
+            <span class="filter-item" id="sonify"> sonify </span>
+            <span class="filter-item" id="pinkparty"> pinkparty </span>
+            <span class="filter-item" id="webcam"> webcam </span>
+            <span class="filter-item" id="bayer"> bayer </span>
+            <span class="filter-item" id="pixelate"> pixelate </span>
+        </section>
+
+        <section id="sonifymenu">
+          <img src="images/sonifyimages/piano1.png" id="algo1">
+          <img src="images/sonifyimages/cat1.png" id="algo2">
+          <img src="images/sonifyimages/drum1.png" id="algo3">
+          <img src="images/sonifyimages/play1.png" id="sonifyplay">
+          <!-- <img src="images/sonifyimages/stop.png" id="sonifystop"> -->
+          <div class="sonifyslider">
+            <input type="range" min="0.2" max="30.0" value="1.0" class="sonifyslider" id="pitchRange">
+          </div>
         </section>
 
         <section id="brush-menu">
+            <img src="images/imagenotfound.jpg" id="djScrewBrush" class="brush-icon">
             <img src="images/pen.png" id="basicPen" class="brush-icon">
             <img src="images/rainbow-pen.png" id="rainbowPen" class="brush-icon">
             <img src="images/stars.png" id="starBrush" class="brush-icon">
             <img src="images/grumpy-cat.png" id="catsBrush" class="brush-icon">
+            <img src="images/text.png" id="textBrush" class="brush-icon">
+            <img src="images/cowboy_9.png" id="cowboyBrush" class="brush-icon">
             <img src="images/noise-brush.png" id="noiseBrush" class="brush-icon">
+            <img src="images/erase.png" id="erase" class="brush-icon">
+            <img src="images/acidhouseBrush.png" id="acidhouseBrush" class="brush-icon">
             <img src="images/catball.png" id="soundBrush" class="brush-icon">
             <!-- etc. -->
         </section>
@@ -32,14 +53,26 @@
         <script src="js/p5.sound.js"></script>
         <script src="js/p5.dom.min.js"></script>
         <script src="js/brushes/basicPen.js"></script>
+        <script src="js/brushes/textBrush.js"></script>
+        <script src="js/brushes/djScrewBrush.js"></script>
         <script src="js/brushes/rainbowPen.js"></script>
         <script src="js/brushes/catsBrush.js"></script>
         <script src="js/brushes/starBrush.js"></script>
+        <script src="js/brushes/cowboyBrush.js"></script>
         <script src="js/brushes/noiseBrush.js"></script>
+        <script src="js/brushes/erase.js"></script>
+        <script src="js/brushes/acidhouseBrush.js"></script>
         <script src="js/brushes/soundBrush.js"></script>
         <script src="js/filters/desaturate.js"></script>
+        <script src="js/filters/pixelate.js"></script>
+        <script src="js/filters/sonify.js"></script>
+        <script src="js/filters/webcam.js"></script>
         <script src="js/filters/invert.js"></script>
+        <script src="js/filters/pinkparty.js"></script>
+        <script src="js/filters/bayer.js"></script>
+        <script src="js/filters/pixelate.js"></script>
         <script src="js/main.js"></script>
+
 
     </body>
 </html>
