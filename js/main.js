@@ -75,12 +75,15 @@ function preload() {
     loadMp3Sounds()
     loadCowboyImages()
     loadacidhouseImages()
+    loadSoundBrush()
 }
 
 function setup(){
     let canvas = createCanvas(innerWidth,innerHeight)
     eraseSetUp(canvas.drawingContext)
-    setupNoiseBrush();
+    setupNoiseBrush()
+    setupSoundBrush()
+
 }
 
 function mouseReleased(){
@@ -131,6 +134,10 @@ function draw(){
         } else if(currentBrush== "textBrush"){
 
              textBrush( mouseX, mouseY )
+
+        } else if (currentBrush== "soundBrush"){
+
+            soundBrush( mouseX, mouseY )
         }
     }
 }
