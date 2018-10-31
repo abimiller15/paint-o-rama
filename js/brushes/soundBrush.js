@@ -8,14 +8,15 @@ let rotation = 3
 function loadSoundBrush(){
 	img = loadImage("images/catball.png") //add to main.js ???
 	musicTrack = loadSound("audio/catsong.mp3")
+	musicTrack.jump(10)
 }
 
 
 function setupSoundBrush() { //get rid of and add to main.js??
-	musicTrack.play() // start the music
+	// start the music
 	amplitude = new p5.Amplitude()
 
-	musicTrack.jump(30)
+
 }
 
 function musicEnd(){
@@ -25,7 +26,7 @@ function musicEnd(){
 function soundBrush(x,y) {
 		// getting the volume of the track
 		let level = amplitude.getLevel() // between 0 and 1
-		let c = map(level, 0, 1, 10, 200)
+		let c = map(level, 0, 1, 10, 400)
 		let radius = map(level, 0, 1, 10, 400)//how the sound is affecting the size
 
 
