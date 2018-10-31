@@ -1,5 +1,3 @@
-
-
 let musicTrack
 let amplitude
 let img
@@ -13,9 +11,6 @@ function loadSoundBrush(){
 
 function setupSoundBrush() { //get rid of and add to main.js??
 	amplitude = new p5.Amplitude()
-
-
-
 }
 
 function musicEnd(){
